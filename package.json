@@ -16,3 +16,10 @@
     "datejs": "^1.0.0-rc3"
   }
 }
+{
+  "jest": {
+    "modulePathIgnorePatterns": [
+      "<rootDir>/js-analyzing-data-modules-syntax-lab/"
+    ]
+  }
+}
