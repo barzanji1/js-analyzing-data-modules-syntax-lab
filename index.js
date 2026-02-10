@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require ('Datejs')
 
 require('datejs');
@@ -17,3 +18,11 @@ function combineUsers(...args) {
 }
 
 module.exports = combineUsers;
+=======
+
+
+
+module.exports = {
+  ...(typeof combineUsers !== 'undefined' && { combineUsers })
+};
+
